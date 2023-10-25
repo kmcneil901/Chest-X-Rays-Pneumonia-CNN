@@ -21,18 +21,18 @@ The dataset was provided by Kaggle: [Chest X-Ray Images (Pneumonia)](https://www
 We consistently reshaped each directory in the dataset, followed by additional reshaping and transposing of individual datasets. Additionally, the data was normalized with a rescale factor of 1.0/255, and all images were resized to 64x64 dimensions. Given the relatively small size of the original challenge dataset, the image augmentations proved advantageous in mitigating overfitting. **Add we also add more data if we rotated it or used greyscale** 
 
 ### Key Tools
-*Python
-*TensorFlow
-*Keras
-*Numpy
+* Python
+* TensorFlow
+* Keras
+* Numpy
 
 ### Modeling
 **Add information about Irwin's function if included in final model**
 
-### Reproducing the Experiment
+## Reproducing the Experiment
 Ensure your environment supports the most recent version of [Tensorflow](https://github.com/tensorflow/tensorflow/releases). If your environment does not support Tensorflow, we suggest using Google Colab for this model. **Please refer to the FINAL NOTEBOOK for the entire modeling process.**
 
-### Presentation and Resources
+## Presentation and Resources
  - Presentation
  - The dataset was verified and provided by Kaggle: [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/)
  - This project and approach drew inspiration from the article found here: [Efficient Pneumonia Detection in Chest Xray Images Using Deep Transfer Learning](https://www.mdpi.com/2075-4418/10/6/417)
