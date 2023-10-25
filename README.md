@@ -7,32 +7,32 @@ Pneumonia is an infection that affects one or both lungs by causing the air sacs
 
 Within this repository, you will find a comprehensive analysis that classifies x-ray images into two categories: Normal and Pneumonia. 
 
-##Repository Structure
+## Repository Structure
 - Preprocess and Final model notebook
 - README.md: High-level README for reviewers of this project
 - Technical Presentation
 
-##Approach
+## Approach
 We used Convolutional Neural Network (CNN) techniques to develop an AI system for pneumonia detection. The neural network model or architecture was designed using the Keras API and was implemented using Python and TensorFlow. 
 
-###Data and Preprocessing
+### Data and Preprocessing
 The dataset was provided by Kaggle: [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/). It contains X-ray three folders/directories (train, test, val) of images divided into two categories: "Normal" and "Pneumonia." These images were acquired from pediatric patients aged one to five years at Guangzhou Women and Children's Medical Center. Before inclusion, a quality control process removed poor-quality scans, and expert physicians graded the diagnoses to prepare the dataset for AI training.
 
 We consistently reshaped each directory in the dataset, followed by additional reshaping and transposing of individual datasets. Additionally, the data was normalized with a rescale factor of 1.0/255, and all images were resized to 64x64 dimensions. Given the relatively small size of the original challenge dataset, the image augmentations proved advantageous in mitigating overfitting. **Add we also add more data if we rotated it or used greyscale** 
 
-###Key Tools
+### Key Tools
 *Python
 *TensorFlow
 *Keras
 *Numpy
 
-###Modeling
+### Modeling
 **Add information about Irwin's function if included in final model**
 
-###Reproducing the Experiment
+### Reproducing the Experiment
 Ensure your environment supports the most recent version of [Tensorflow](https://github.com/tensorflow/tensorflow/releases). If your environment does not support Tensorflow, we suggest using Google Colab for this model. **Please refer to the FINAL NOTEBOOK for the entire modeling process.**
 
-###Presentation and Resources
+### Presentation and Resources
  - Presentation
  - The dataset was verified and provided by Kaggle: [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/)
  - This project and approach drew inspiration from the article found here: [Efficient Pneumonia Detection in Chest Xray Images Using Deep Transfer Learning](https://www.mdpi.com/2075-4418/10/6/417)
