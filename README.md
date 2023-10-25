@@ -1,9 +1,10 @@
 # Pneumonia Detection on Chest X-Ray images using Deep Learning 
 ### Authors: Kacey Clougher, Rachel Goldstein, Irwin Lam, and Kendall McNeil
 
-Pneumonia is an infection that affects one or both lungs by causing the air sacs, or alveoli, of the lungs to fill up with fluid or pus. Traditionally, pneumonia detection hinges on the examination of chest X-ray radiographs, a labor-intensive process conducted by highly skilled specialists. This method often results in discordant interpretations among radiologists. Leveraging the power of deep learning techniques (keras), we have developed a computational approach for the detection of pneumonia regions.
-
+Pneumonia is an infection that affects one or both lungs by causing the air sacs, or alveoli, of the lungs to fill up with fluid or pus. Traditionally, pneumonia detection hinges on the examination of chest X-ray radiographs, a labor-intensive process conducted by highly skilled specialists. This method often results in discordant interpretations among radiologists. Leveraging the power of deep learning techniques (CNNs), we have developed a computational approach for the detection of pneumonia regions.
+ 
 ![9914455](https://github.com/kmcneil901/Chest-X-Rays-Pneumonia/assets/137820049/fa4b89d4-21d6-48b3-9016-692bb001b97a)
+
 
 Within this repository, you will find a comprehensive analysis that classifies x-ray images into two categories: Normal and Pneumonia. 
 
