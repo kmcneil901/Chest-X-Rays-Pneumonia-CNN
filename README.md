@@ -34,6 +34,6 @@ We consistently reshaped each directory in the dataset, followed by additional r
 Ensure your environment supports the most recent version of [Tensorflow](https://github.com/tensorflow/tensorflow/releases). If your environment does not support Tensorflow, we suggest using Google Colab for this model. **Please refer to the FINAL NOTEBOOK for the entire modeling process.**
 
 ## Presentation and Resources
- - Presentation
+ - You can view the technical presentation from the repository [here](https://github.com/kmcneil901/Chest-X-Rays-Pneumonia/blob/main/Pnuemonia_Classification_Model_Presentation.pdf).
  - The dataset was verified and provided by Kaggle: [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/)
  - This project and approach drew inspiration from the article found here: [Efficient Pneumonia Detection in Chest Xray Images Using Deep Transfer Learning](https://www.mdpi.com/2075-4418/10/6/417)
